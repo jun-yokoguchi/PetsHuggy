@@ -1,7 +1,7 @@
 <%= render 'partial/navbar' %>
 
 <!-- 認証情報チェック -->
-<script type="">
+<script type="text/javascript">
 	$(function(){
 		<% if !@user.email.blank? %>
 		  $("#ver-email").attr('class','vertification-checked');
